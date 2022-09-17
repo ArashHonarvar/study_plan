@@ -1,0 +1,60 @@
+nav {
+    background-color: #0d6efd;
+}
+
+.navigationBar {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 767px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+.title #name {
+    color: white;
+    margin-left: 10px;
+    font-size: 32px;
+    text-decoration: none !important;
+}
+
+.title #logo {
+    color: white;
+    font-size: 30px;
+}
+
+.icon {
+    color: white;
+    font-size: 30px;
+}
+
+.icon#user {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.icon#menu {
+    display: flex;
+    padding-left: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-right: 5px;
+}
